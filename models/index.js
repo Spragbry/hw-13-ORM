@@ -12,6 +12,12 @@ const ProductTag = require('./ProductTag');
 
 // Tags belongToMany Products (through ProductTag)
 
+//Category.hasMany(Product);
+//Product.hasOne(Category);
+//Product.hasMany(Tag);
+//Tag.hasMany(Product);
+//Product.belongsToMany(Tag, { through: "ProductTag" });
+
 module.exports = {
   Product,
   Category,
